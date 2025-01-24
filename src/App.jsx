@@ -5,6 +5,7 @@ import About from './components/About/About';
 import NotFound from './components/NotFound';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
+import Reviews from './components/Reviews/Reviews';
 
 
 
@@ -23,6 +24,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/reviews" element={<Reviews />} />
         <Route path="*" element={<NotFound />} />
         {/* <Route path="/contactUs" element={<Contact />} /> */}
       </Routes>
