@@ -32,7 +32,7 @@
             transform: translate(-50%, -50%);
             color: white;
             z-index: 2;
-            font-size: 3rem;
+            font-size: 4rem; /* Larger font size for larger screens */
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
             padding: 0 1rem; /* Adds padding to prevent text from touching the edges on smaller screens */
         }
@@ -40,16 +40,17 @@
         /* Responsive styles */
         @media (max-width: 768px) {
             #imageContainerAbout h2 {
-                font-size: 2rem; /* Slightly smaller text on tablets and smaller devices */
+                font-size: 3.5rem; /* Slightly smaller but still large on tablets */
             }
         }
         
         @media (max-width: 480px) {
             #imageContainerAbout h2 {
-                font-size: 1.2rem; /* Smaller text on mobile devices */
+                font-size: 3.5rem; /* Keep text large on mobile devices */
                 padding: 0 0.5rem; /* Adjust padding to fit text on small screens */
             }
         }
+        
 /* SECOND SECTION */
         #contactAbout {
             font-family: serif;
@@ -120,7 +121,7 @@
             padding: 1.5rem;
          
             border-radius: 8px;
-            width: 60%;
+           width: 70%;
             margin-bottom: -1rem;
           
         }
@@ -155,7 +156,11 @@
                 font-size: 1.2rem; /* Adjust for tablets */
             }
             .blog-post{
-                        width: 90%;
+                        width: 100%;
+                        padding-left: 0px;
+                        padding-right: 0px;
+                        margin-left: 0px;
+                        padding-right: 0px;
             }
             .blog-post p {
                 font-size: 0.8.5rem; /* Smaller font for smaller devices */
@@ -171,7 +176,11 @@
                 font-size: 1rem; /* Adjust for small mobile screens */
             }
             .blog-post{
-                        width: 95%;
+                        width: 100%;
+                        padding-left: 0px;
+                        padding-right: 0px;
+                        margin-left: 0px;
+                        padding-right: 0px;
             }
             .blog-post p {
                 font-size: 0.8rem; /* Smaller font for smaller screens */
