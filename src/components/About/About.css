@@ -127,15 +127,23 @@
         
         .blog-post p {
             /* word-spacing: .4rem; */
-            font-family: 'Roboto', sans-serif;
-            letter-spacing: .0.5rem;
-            letter-spacing: 0.1em; /* Slight letter spacing for elegance */
-  line-height: 1.6;
-            font-size: 0.9rem;
+            font-family: serif;
+            word-spacing: .2rem;
+            letter-spacing: 0.07em; /* Slight letter spacing for elegance */
+  line-height: 1.05;
+            font-size: .9rem;
           /* Line spacing for readability */
-            color: #555; /* Softer text color for content */
+            color: #302c2c; /* Softer text color for content */
             margin-bottom: 1rem; /* Space out paragraphs within the blog post */
         }
+        .blog-post  p::before {
+            content: "“";
+          }
+          
+          .blog-post  p::after {
+            content: "”";
+          }
+          
         
         /* Responsive styles */
         @media (max-width: 768px) {
