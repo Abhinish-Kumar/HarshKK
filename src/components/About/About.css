@@ -131,7 +131,7 @@
             letter-spacing: .0.5rem;
             letter-spacing: 0.1em; /* Slight letter spacing for elegance */
   line-height: 1.6;
-            font-size: 1rem;
+            font-size: 0.9rem;
           /* Line spacing for readability */
             color: #555; /* Softer text color for content */
             margin-bottom: 1rem; /* Space out paragraphs within the blog post */
@@ -150,7 +150,7 @@
                         width: 90%;
             }
             .blog-post p {
-                font-size: 0.95rem; /* Smaller font for smaller devices */
+                font-size: 0.8.5rem; /* Smaller font for smaller devices */
             }
         }
         
@@ -166,7 +166,7 @@
                         width: 95%;
             }
             .blog-post p {
-                font-size: 0.9rem; /* Smaller font for smaller screens */
+                font-size: 0.8rem; /* Smaller font for smaller screens */
             }
         }
         
