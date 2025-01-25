@@ -4,7 +4,7 @@ import ReviewCard from "./ReviewCard/ReviewCard"
 
 function Reviews() {
             return <>
-            <div id="imageContainerAbout" data-aos="flip-left">
+            <div id="imageContainerAbout" >
             <img src="https://i.pinimg.com/originals/4f/e4/72/4fe472a2f5bfef4ffaf88bdab31c8acf.jpg" alt="event image" />
             <h2 className="slim-text " >REVIEWS </h2>
             </div>
