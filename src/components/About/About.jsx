@@ -12,7 +12,7 @@ function About() {
             </div>
             <div id="welcomeAbout">
     <p id="welcomeTitle" className="slim-text" data-aos="slide-right">WELCOME TO</p>
-    <p id="mainTitle" className="slim-text" data-aos="slide-left">MAGNA PRODUCTION</p>
+    <p id="mainTitle" className="slim-text" data-aos="slide-right">MAGNA PRODUCTION</p>
     <p id="tagline" data-aos="slide-right">Tried. Trusted. Inspired</p>
     
     <div className="blog-post"  data-aos="zoom-in">
