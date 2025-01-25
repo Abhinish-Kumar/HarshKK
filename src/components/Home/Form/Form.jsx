@@ -2,7 +2,7 @@ import "./Form.css";
 
 function Form() {
   return (
-    <div id="form-container" className="form-container" data-aos="slide-left">
+    <div id="form-container" className="form-container" data-aos="slide-right">
       <div className="header">
         <h1>CONTACT US</h1>
         <span>info@magna.co.uk</span>
