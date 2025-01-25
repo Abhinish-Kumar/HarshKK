@@ -16,7 +16,7 @@ function VideoCard() {
   };
 
   return (
-    <div className="videoCard" data-aos="zoom-in">
+    <div className="videoCard" >
       {/* Image Click triggers opening the video modal */}
       <a href="#" onClick={(e) => { e.preventDefault(); openVideo(); }}>
         <img
