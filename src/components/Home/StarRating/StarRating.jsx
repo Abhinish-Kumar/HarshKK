@@ -2,8 +2,8 @@ import "./StarRating.css";
 
 function StarRating() {
   return (
-    <div id="starRatingBlock">
-      <div>
+    <div id="starRatingBlock"data-aos="slide-right" >
+      <div >
         <h1>{`"definitely book them again and again."`}</h1>
         <span> ★</span>
         <span>★</span>

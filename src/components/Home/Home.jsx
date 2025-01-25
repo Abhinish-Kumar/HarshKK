@@ -16,7 +16,7 @@ function Home() {
   return <>
  
 <div id="video">
-<img src={Mlogo} alt="videoLogo" />
+<img src={Mlogo} alt="videoLogo" data-aos="fade-up"/>
  
   <video src={Video} autoPlay loop muted/>
   </div>

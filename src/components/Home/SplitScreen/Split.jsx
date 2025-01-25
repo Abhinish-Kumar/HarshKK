@@ -1,5 +1,5 @@
 function SplitScreen(){
-            return  <div id="splitGreet">
+            return  <div id="splitGreet" data-aos="zoom-in">
             <div id="left">
               <div>
               <span style={{ fontSize: "2.5rem" }}>{`LET'S`}</span>

@@ -2,6 +2,8 @@ import { useState } from 'react';
 import './Header.css';
 import { Link } from 'react-router-dom';
 import Logo from "../Images/logo-magna.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookSquare, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 function Header() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -15,7 +17,7 @@ function Header() {
     <div id='header'>
       {/* Sidebar */}
       <div className={`sidebar ${isSidebarOpen ? 'open' : ''}`}>
-        <ul>
+        <ul >
           <li><Link to="/" onClick={toggleSidebar}>HOME</Link></li>
           <li><a href="#form-container">CONTACT US</a></li>
           <li><Link to="/about" onClick={toggleSidebar}>ABOUT</Link></li>
@@ -38,7 +40,7 @@ function Header() {
         </div>
 
         {/* Navbar links for larger screens */}
-        <ul>
+        <ul id='links'>
           <li><Link to="/">HOME</Link></li>
           <li><a href="#form-container">CONTACT US</a></li>
           <li><Link to="/about">ABOUT</Link></li>
@@ -47,9 +49,13 @@ function Header() {
           <li><Link to="/reviews">REVIEWS</Link></li>
         </ul>
         <ul>
-          <li>Icon</li>
-          <li>Icon</li>
-          <li>Icon</li>
+          <li> <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faFacebookSquare} className="icon" id="fb" style={{color:"rgb(9 20 5)",marginRight:"-1rem"}}/>
+          </a></li>
+          
+          <li><a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faInstagram} className="icon" id="gram" style={{color:"rgb(9 20 5)"}}/>
+          </a></li>
         </ul>
       </nav>
     </div>

@@ -1,5 +1,5 @@
 import  { useState } from "react";
-import video from "./video1.mp4"
+import video from "./video2.mp4"
 
 function VideoCard() {
   // State to control whether the video modal is shown or not
@@ -16,7 +16,7 @@ function VideoCard() {
   };
 
   return (
-    <div className="videoCard">
+    <div className="videoCard" data-aos="zoom-in">
       {/* Image Click triggers opening the video modal */}
       <a href="#" onClick={(e) => { e.preventDefault(); openVideo(); }}>
         <img

@@ -9,7 +9,8 @@ box-sizing: border-box;
 html {
             scroll-behavior: smooth;
           }
-       /* Style for slim text */
+         
+          /* Style for slim text */
 .slim-text {
   font-family: 'Roboto', sans-serif; /* Clean sans-serif for a modern feel */
   font-weight: 300; /* Light weight for slim appearance */
@@ -38,4 +39,4 @@ html {
   }
 }
 
-          
+

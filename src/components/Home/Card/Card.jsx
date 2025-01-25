@@ -1,7 +1,7 @@
 
 import "./Card.css"
 function Card({imageUrl,textOne,textTwo}){
-            return <div className="Card">
+            return <div className="Card" data-aos="flip-left">
             <img src={imageUrl}/>
             <div>
                      <h2>{textOne}</h2>   

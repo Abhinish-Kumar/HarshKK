@@ -1,8 +1,8 @@
 import "./ReviewCard.css"
 function ReviewCard() {
             return (
-              <div className="reviewCard"  >
-                <p>
+              <div className="reviewCard"  data-aos="fade-up">
+                <p data-aos="zoom-in">
                   I reached out to Paragon for my cousins wedding night celebrations, 
                   she was quite keen to get a good mix of Indian and English music to 
                   keep the crowd engaged. They were SO EASY to book with and so friendly 

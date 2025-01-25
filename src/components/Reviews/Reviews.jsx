@@ -4,11 +4,11 @@ import ReviewCard from "./ReviewCard/ReviewCard"
 
 function Reviews() {
             return <>
-            <div id="imageContainerAbout">
+            <div id="imageContainerAbout" data-aos="flip-left">
             <img src="https://i.pinimg.com/originals/4f/e4/72/4fe472a2f5bfef4ffaf88bdab31c8acf.jpg" alt="event image" />
-            <h2 className="slim-text ">REVIEWS </h2>
+            <h2 className="slim-text " >REVIEWS </h2>
             </div>
-            <div id="contactAbout">
+            <div id="contactAbout" data-aos="fade-up">
 <p >SPEAK TO US TODAY</p>
 <p>TE: +44 (0) 208 606 9636</p>
             </div>

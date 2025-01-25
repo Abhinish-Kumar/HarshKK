@@ -3,6 +3,7 @@
   position: sticky;
   top: 0;
   z-index: 20;
+  font-family: serif;
 }
 
 
@@ -33,7 +34,7 @@ background-color: rgb(9 20 5);
           
           nav .logo img{
             height: 100%;
- width: 100px;
+ width: 120px;
 
             
           }
@@ -59,9 +60,8 @@ background-color: rgb(9 20 5);
             transition: background-color 0.3s;
           }
           
-          nav ul li a:hover {
-            background-color: #f39c12;
-          }
+          
+         
           
           /* Sidebar styles for small screens */
           .sidebar {
@@ -143,6 +143,9 @@ background-color: rgb(9 20 5);
             }
           
             /* Navbar items should be hidden by default in mobile */
+            nav{
+              padding: 10px;
+            }
             nav ul {
               display: none; /* Hide the navbar items */
             }
@@ -165,6 +168,21 @@ background-color: rgb(9 20 5);
             /* Main navbar styles for small screens */
             nav {
               justify-content: space-between;
+              padding: 8px;
             }
           }
+          
+          #fb,#gram{
+            width: 1.5rem;
+            height: 1.5rem;
+            border-radius: .3rem;
+          }
+        
+         
+          nav > ul:first-of-type li a:hover {
+            background-color: #f0f0f0; /* Example background */
+            /* Add more styles as needed */
+            color: rgb(0, 0, 0);
+          }
+          
           
