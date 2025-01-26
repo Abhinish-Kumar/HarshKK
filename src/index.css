@@ -6,8 +6,23 @@ padding:0;
 box-sizing: border-box;
 }
 
+body{
+  width: 100%;
+}
+#root{
+  min-width: 100%;
+}
+
+#header{
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+}
 html {
             scroll-behavior: smooth;
+            width: 100%;
           }
          
           /* Style for slim text */

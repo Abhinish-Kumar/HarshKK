@@ -9,9 +9,9 @@ function Form() {
       </div>
       <div className="description">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-          deleniti officia, corrupti distinctio consequatur error maiores!
-          Consectetur modi autem dolores!
+        Thank you for visiting Paragon. If your thinking about booking us for an event please feel free to fill in the form below.
+
+You can also call us direct on +1 778 325 1800
         </p>
       </div>
       <div className="form-section">

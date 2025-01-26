@@ -65,6 +65,7 @@ video{
             #splitGreet {
               display: flex;
               justify-content: space-between;
+            
             }
             
             #left {
@@ -99,8 +100,10 @@ video{
             
             #right div{
 position: absolute;
-width: 40%;
+width: 50%;
 margin: 4rem;
+
+
             }
             #right p {
               margin-bottom: 20px; /* Space between paragraphs */

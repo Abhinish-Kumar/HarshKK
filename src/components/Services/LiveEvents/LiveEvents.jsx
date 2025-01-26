@@ -83,10 +83,10 @@ const LiveEvents = () => {
 
       {/* Video Modal */}
       {showVideo && (
-        <div className="videoModal" style={modalStyles}>
-          <div className="videoModalContent" style={modalContentStyles}>
-            <button onClick={closeVideo} className="closeButton">X</button>
-            <video controls autoPlay style={videoStyles}>
+        <div className="videoModal" style={modalStyless}>
+          <div className="videoModalContent" style={modalContentStyless}>
+            <button onClick={closeVideo} className="closeButton" style={closeButtonStyless}>X</button>
+            <video controls autoPlay style={videoStyless}>
               <source src={videoSource} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
@@ -98,7 +98,7 @@ const LiveEvents = () => {
 };
 
 // Styling for modal
-const modalStyles = {
+const modalStyless = {
   position: "fixed",
   top: 0,
   left: 0,
@@ -111,7 +111,7 @@ const modalStyles = {
   zIndex: 9999,
 };
 
-const modalContentStyles = {
+const modalContentStyless = {
   position: "relative",
   display: "flex",
   justifyContent: "center",
@@ -119,7 +119,7 @@ const modalContentStyles = {
   flexDirection: "column",
 };
 
-const closeButtonStyles = {
+const closeButtonStyless = {
   position: "absolute",
   top: 20,
   right: 20,
@@ -131,7 +131,7 @@ const closeButtonStyles = {
   zIndex: 1000,
 };
 
-const videoStyles = {
+const videoStyless = {
   maxWidth: "100%",
   maxHeight: "90vh",
   objectFit: "contain",

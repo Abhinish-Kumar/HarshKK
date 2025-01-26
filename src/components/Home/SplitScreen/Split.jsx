@@ -20,7 +20,7 @@ function SplitScreen(){
             You can pick  from our pre designed package or we can design something  completely bespoke to you.
             </p>
             
-            <p>Call us today on  020 8606 9636</p>
+            <p>Call us today on +1 604 653 9000 or +1 778 325 1800</p>
             
             <p>Or whatsapp us!</p>
             </div>

@@ -9,8 +9,14 @@ import Footer from './components/Footer/Footer';
 import Reviews from './components/Reviews/Reviews';
 import Services from './components/Services/Services';
 import LiveEvents from './components/Services/LiveEvents/LiveEvents';
+import LightProduction from './components/Services/LightProduction/LightProduction';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import DanceFloor from './components/Services/DanceFloor/DanceFloor';
+import LedWalls from './components/Services/LedWalls/LedWalls';
+import BesPokeStaging from './components/Services/BesPokeStaging/BesPokeStaging';
+import BesPokeBars from './components/Services/BespokeBars/BespokeBars';
+import Term from './components/Term/Term';
 
 
 //data-aos="fade-left"
@@ -34,7 +40,13 @@ function App() {
           <Route path="/about" exact element={<About />} />
           <Route path="/reviews" exact element={<Reviews />} />
           <Route path="/services" exact element={<Services />} />
-          <Route path="services/liveEvents" exact element={<LiveEvents />} />
+          <Route path="/liveEvents" exact element={<LiveEvents />} />
+          <Route path="/lightProduction" exact element={<LightProduction/>} />
+          <Route path="/danceFloor" exact element={<DanceFloor/>} />
+          <Route path="/ledWalls" exact element={<LedWalls/>} />
+          <Route path="/baspakeStaging" exact element={<BesPokeStaging/>} />
+          <Route path="/Bars" exact element={<BesPokeBars/>} />
+          <Route path="/copy-of-about-3" exact element={<Term/>} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
