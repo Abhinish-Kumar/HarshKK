@@ -1,4 +1,5 @@
 import React from 'react';
+import "./Term.css";
 
 function Term() {
   return (
